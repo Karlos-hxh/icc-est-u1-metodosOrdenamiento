@@ -28,7 +28,7 @@ public class MetodoBurbuja {
     }
     public void imprimirArreglo(){
         for (int num : arreglo) {
-            System.out.print(num + ",");
+            System.out.print(num + " , ");
             
         }
         System.out.println();
