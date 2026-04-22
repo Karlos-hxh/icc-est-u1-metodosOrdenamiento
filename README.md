@@ -15,3 +15,9 @@ Cree la clase 'Metodo burbuja' que implementa metodo de ordenamiento acendente,d
 ### Descripción:
 
 Creamos la clase 'Metodo burbuja avanzado' esto nos ayudo a optimizar el arreglo acendente y decendente deteniendolo si ya se ordeno todo reduciendo el tiempo de ejecucion y uso de memoria.
+
+## Practica 1.3 Metodo seleccion
+### Fecha 22/04/2026
+### Descripción:
+
+Creamos el metodo de seleccion el cual es mas rapido de ordenar una lista.
