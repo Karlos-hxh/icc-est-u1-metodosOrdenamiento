@@ -29,24 +29,24 @@ public class MetodoBurbujaAvanzado {
                     // Orden Descendente
                     if (arreglo[j] < arreglo[j + 1]) {
                         intercambiar(j, j + 1);
-                        contCambios++; // Agregado aquí también para que cuente en descendente
+                        contCambios++;
                         huboIntercambios = true;
                     }
                 }
             }
             
-            // Si en una vuelta completa no hubo cambios, terminamos (Optimización)
+           
             if (!huboIntercambios) {
                 break;
             }
         }
         
-        // Estos deben estar DENTRO del método sort, antes de la última llave
+        
         System.out.println("Comparaciones = " + contComparaciones);
         System.out.println("Cambios = " + contCambios);
     }
 
-    // Método auxiliar para no repetir código de intercambio
+  
     private void intercambiar(int i, int j) {
         int aux = arreglo[i];
         arreglo[i] = arreglo[j];
