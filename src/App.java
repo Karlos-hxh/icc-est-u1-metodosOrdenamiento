@@ -34,7 +34,7 @@ public class App {
     }
 
     public static void runSeleccion() {
-        System.out.println("--- Metodo Seleccion ---");
+        System.out.println("Metodo Seleccion ");
         int[] arr = new int[]{ 1, 10, 7, 9, 0, 1, 3, 4 };
         MetodoSeleccion mSeleccion = new MetodoSeleccion(arr);
         
